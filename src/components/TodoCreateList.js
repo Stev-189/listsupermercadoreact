@@ -1,4 +1,3 @@
-
 export const TodoCreateList = (list) => {
   return list.map((e,i)=> {
     return {

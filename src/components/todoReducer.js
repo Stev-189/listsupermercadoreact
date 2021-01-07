@@ -13,8 +13,6 @@ export const todoReducer=(state=[],action)=>{
       state=state.map(todo=>(todo.id===action.payload)?{...todo, done: !todo.done}:todo);
       let temp = state.find(todo=>todo.id===action.payload);
       state=state.filter(todo=>todo.id!==action.payload);
-      // console.log(state);
-      // console.log(temp);
       return (temp.done)?[...state, temp]:[temp,...state];
 
     

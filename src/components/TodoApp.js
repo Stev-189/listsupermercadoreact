@@ -1,15 +1,18 @@
 import React, { useEffect, useReducer } from 'react'
+import { listSuper } from './asset/listSuper';
 import { todoReducer } from './todoReducer'
 import { TodoList } from './TodoList';
 import { TodoAdd } from './TodoAdd';
-import { listSuper } from './asset/listSuper';
+import { TodoReset } from './TodoReset';
 import { TodoCreateList } from './TodoCreateList';
 import swal from 'sweetalert';
-
 import './styles.css';
-import { TodoReset } from './TodoReset';
+
 let listaS =TodoCreateList(listSuper)
+
+
 let listaStorage=JSON.parse(localStorage.getItem('todos'))
+
 const init=()=>{
   return listaStorage || listaS
 }
@@ -73,6 +76,7 @@ export const TodoApp = () => {
           />
         </div>
       </div>
+      <hr />
         <div className='col-12'>
           <TodoAdd handleAddTodo= {handleAddTodo}/>
         </div>

@@ -2,6 +2,7 @@ import React from 'react'
 
 export const TodoListItem = ({todo, index, handleDelete , handleToggle}) => {
   return (
+    <>
     <li
         key={todo.id}//todos los elementos deben llevar un key
         className='list-group-item'
@@ -16,5 +17,7 @@ export const TodoListItem = ({todo, index, handleDelete , handleToggle}) => {
         onClick={()=>{ handleDelete(todo.id) }}
       >Borrar</button> */}
     </li>
+    {/* <hr /> */}
+    </>
   )
 }
