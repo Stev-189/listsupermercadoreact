@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/listsupermercadoreact/static/css/main.85b429b7.chunk.css",
-    "main.js": "/listsupermercadoreact/static/js/main.27af3c1b.chunk.js",
-    "main.js.map": "/listsupermercadoreact/static/js/main.27af3c1b.chunk.js.map",
+    "main.js": "/listsupermercadoreact/static/js/main.d1cfa4cd.chunk.js",
+    "main.js.map": "/listsupermercadoreact/static/js/main.d1cfa4cd.chunk.js.map",
     "runtime-main.js": "/listsupermercadoreact/static/js/runtime-main.f17a7493.js",
     "runtime-main.js.map": "/listsupermercadoreact/static/js/runtime-main.f17a7493.js.map",
     "static/js/2.5f9ff5a4.chunk.js": "/listsupermercadoreact/static/js/2.5f9ff5a4.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.f17a7493.js",
     "static/js/2.5f9ff5a4.chunk.js",
     "static/css/main.85b429b7.chunk.css",
-    "static/js/main.27af3c1b.chunk.js"
+    "static/js/main.d1cfa4cd.chunk.js"
   ]
 }
